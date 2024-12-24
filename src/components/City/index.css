@@ -1,0 +1,22 @@
+.nav-item {
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+
+    position: relative;
+    padding-left: 20px;
+}
+
+.nav-item::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 0;
+}
+
+.innerItem {
+    font-weight: 400;
+}
